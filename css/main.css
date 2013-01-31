@@ -1,1 +1,1 @@
-.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}.clearfix:after{clear:both}h1{background-color:yellow}a.github{background-color:blue;color:white;font-weight:bold;padding:5px}a.github :hover{text-decoration:underline;color:white}.red{color:#f00;font-weight:bold}
+.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}.clearfix:after{clear:both}@media(max-width:767px){.full-width-phones{margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px}}h1{background-color:yellow}
