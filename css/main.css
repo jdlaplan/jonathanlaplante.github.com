@@ -1,4 +1,3 @@
-.test {
-  border-radius: 10px;
-  background-color: yellow; 
-}
+/* line 1, ../sass/main.scss */
+body {
+  padding-top: 50px; }
