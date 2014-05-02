@@ -1,0 +1,1 @@
+!function(t){"use strict";t("a").tooltip()}(jQuery);
