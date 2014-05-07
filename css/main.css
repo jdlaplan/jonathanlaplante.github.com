@@ -6,7 +6,7 @@ body {
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     /* line 9, ../sass/_mixins.scss */
     body {
-      background-image: url("../images/triangles@2x.png");
+      background-image: url("../images/triangles@2X.png");
       -webkit-background-size: 33px 36px;
       -moz-background-size: 33px 36px;
       -o-background-size: 33px 36px;
