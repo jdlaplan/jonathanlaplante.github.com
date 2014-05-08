@@ -1,59 +1,10 @@
-/* line 6, ../sass/main.scss */
-body {
-  padding-top: 50px;
-  font-family: 'Open Sans', sans-serif;
-  background-image: url("../images/triangles.png"); }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    /* line 9, ../sass/_mixins.scss */
-    body {
-      background-image: url("../images/triangles@2X.png");
-      -webkit-background-size: 33px 36px;
-      -moz-background-size: 33px 36px;
-      -o-background-size: 33px 36px;
-      background-size: 33px 36px; } }
-
-/* line 12, ../sass/main.scss */
-header {
-  padding: 2em 0; }
-
-/* line 16, ../sass/main.scss */
-a {
-  color: red; }
-  /* line 18, ../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
-  a:visited {
-    color: blue; }
-  /* line 21, ../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
-  a:focus {
-    color: green; }
-  /* line 24, ../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
-  a:hover {
-    color: yellow; }
-  /* line 27, ../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/links/_link-colors.scss */
-  a:active {
-    color: white; }
-
-/* line 20, ../sass/main.scss */
-.avatar {
-  width: 100%;
-  max-width: 256px;
-  height: auto;
-  display: block;
-  margin: 0 auto; }
-
-/* line 28, ../sass/main.scss */
-.navbar-toggle {
-  color: white;
-  border: none;
-  border-radius: 0;
-  text-transform: uppercase; }
-
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?-d2idda");
-  src: url("../fonts/icomoon.eot?#iefix-d2idda") format("embedded-opentype"), url("../fonts/icomoon.woff?-d2idda") format("woff"), url("../fonts/icomoon.ttf?-d2idda") format("truetype"), url("../fonts/icomoon.svg?-d2idda#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?-d8ym7y");
+  src: url("../fonts/icomoon.eot?#iefix-d8ym7y") format("embedded-opentype"), url("../fonts/icomoon.woff?-d8ym7y") format("woff"), url("../fonts/icomoon.ttf?-d8ym7y") format("truetype"), url("fonts/icomoon.svg?-d8ym7y#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 46, ../sass/main.scss */
+/* line 12, ../sass/_icomoon.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -66,10 +17,100 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 60, ../sass/main.scss */
+/* line 26, ../sass/_icomoon.scss */
+.icon-linkedin:before {
+  content: "\e602"; }
+
+/* line 29, ../sass/_icomoon.scss */
 .icon-behance:before {
   content: "\e601"; }
 
-/* line 63, ../sass/main.scss */
+/* line 32, ../sass/_icomoon.scss */
 .icon-codepen:before {
   content: "\e600"; }
+
+/* line 35, ../sass/_icomoon.scss */
+.icon-googleplus:before {
+  content: "\e603"; }
+
+/* line 38, ../sass/_icomoon.scss */
+.icon-twitter:before {
+  content: "\e604"; }
+
+/* line 41, ../sass/_icomoon.scss */
+.icon-github:before {
+  content: "\e605"; }
+
+/* line 7, ../sass/main.scss */
+body {
+  font-family: 'Cabin', sans-serif;
+  background-image: url("../images/triangles.png");
+  color: #ecf0f1; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 9, ../sass/_mixins.scss */
+    body {
+      background-image: url("../images/triangles@2X.png");
+      -webkit-background-size: 33px 36px;
+      -moz-background-size: 33px 36px;
+      -o-background-size: 33px 36px;
+      background-size: 33px 36px; } }
+
+/* line 14, ../sass/main.scss */
+header {
+  padding: 3em 0; }
+
+/* line 18, ../sass/main.scss */
+h1 {
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+/* line 23, ../sass/main.scss */
+h2 {
+  color: #ff770b;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em; }
+
+/* a {
+	@include link-colors($red, yellow, white, blue, green);
+} */
+/* line 35, ../sass/main.scss */
+.social a {
+  color: #2980b9;
+  -moz-transition: 0.2s, ease-in-out;
+  -o-transition: 0.2s, ease-in-out;
+  -webkit-transition: 0.2s, ease-in-out;
+  transition: 0.2s, ease-in-out;
+  display: block; }
+  /* line 40, ../sass/main.scss */
+  .social a:hover {
+    color: #ff770b;
+    text-decoration: none;
+    -moz-transform: scale(1.75);
+    -ms-transform: scale(1.75);
+    -webkit-transform: scale(1.75);
+    transform: scale(1.75); }
+/* line 49, ../sass/main.scss */
+.social .tooltip-inner {
+  background-color: #2980b9;
+  border-radius: 0; }
+/* line 54, ../sass/main.scss */
+.social .tooltip.top .tooltip-arrow {
+  border-top-color: #2980b9; }
+
+/* line 61, ../sass/main.scss */
+.avatar {
+  width: 100%;
+  max-width: 256px;
+  height: auto;
+  display: block;
+  margin: 4em auto;
+  box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 6px #3498db; }
+
+/* line 72, ../sass/main.scss */
+.navbar-toggle {
+  color: white;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase; }
