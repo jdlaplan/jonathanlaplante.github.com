@@ -75,7 +75,13 @@ h2 {
 /* a {
 	@include link-colors($red, yellow, white, blue, green);
 } */
-/* line 35, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
+.acs-logo {
+  width: 75px;
+  height: auto;
+  margin-top: -5px; }
+
+/* line 41, ../sass/main.scss */
 .social a {
   color: #2980b9;
   -moz-transition: 0.2s, ease-in-out;
@@ -83,7 +89,7 @@ h2 {
   -webkit-transition: 0.2s, ease-in-out;
   transition: 0.2s, ease-in-out;
   display: block; }
-  /* line 40, ../sass/main.scss */
+  /* line 46, ../sass/main.scss */
   .social a:hover {
     color: #ff770b;
     text-decoration: none;
@@ -91,15 +97,15 @@ h2 {
     -ms-transform: scale(1.75);
     -webkit-transform: scale(1.75);
     transform: scale(1.75); }
-/* line 49, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .social .tooltip-inner {
   background-color: #2980b9;
   border-radius: 0; }
-/* line 54, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 .social .tooltip.top .tooltip-arrow {
   border-top-color: #2980b9; }
 
-/* line 61, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .avatar {
   width: 100%;
   max-width: 256px;
@@ -108,7 +114,7 @@ h2 {
   margin: 4em auto;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 6px #3498db; }
 
-/* line 72, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .navbar-toggle {
   color: white;
   border: none;

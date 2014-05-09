@@ -31,6 +31,12 @@ h2 {
 	@include link-colors($red, yellow, white, blue, green);
 } */
 
+.acs-logo {
+	width: 75px;
+	height: auto;
+	margin-top: -5px;
+}
+
 .social {
 	a {
 		color: $darkblue;
