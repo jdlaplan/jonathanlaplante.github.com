@@ -1,1 +1,1 @@
-!function(t){"use strict";t("a").tooltip()}(jQuery);
+!function(t){"use strict";t("a").tooltip(),t(".fitname").fitText(1.2,{minFontSize:"18px",maxFontSize:"36px"})}(jQuery);

@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import "compass";
-@import "mixins"; 
+@import "mixins";
+@import "media-queries"; 
 @import "variables";
 @import "icomoon";
 
@@ -9,6 +9,22 @@ body {
 	font-family: 'Cabin', sans-serif;
 	@include background-image-retina(triangles, png, 33px, 36px);
 	color: $offwhite;
+
+	@include mq(xs) {
+		font-size: 12px;
+	}
+
+	@include mq(sm) {
+		font-size: 12px;
+	}
+
+	@include mq(md) {
+		font-size: 14px;
+	}
+
+	@include mq(lg) {
+		font-size: 16px;
+	}
 }
 
 header {
@@ -18,7 +34,7 @@ header {
 h1 {
 	color: $lightblue;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 h2 {
 	color: $orange;
@@ -27,29 +43,24 @@ h2 {
 	font-size: 1em;
 }
 
-/* a {
-	@include link-colors($red, yellow, white, blue, green);
-} */
 
 .acs-logo {
 	width: 75px;
 	height: auto;
-	margin-top: -5px;
+	/* display: block;
+	margin: 0 auto; */
 }
 
 .social {
 	a {
 		color: $darkblue;
-		@include transition(.2s, ease-in-out);
 		display: block;
+		transition: all .2s ease-in-out;
 
 		&:hover {
 			color: $orange;
 			text-decoration: none;
-			// transform: scale(1.1) translate(0,-1.5em);
-			
-			@include transform(scale(1.75));
-
+			transform: scale(1.5);
 		}
 	}
 	.tooltip-inner {
@@ -60,8 +71,6 @@ h2 {
 	.tooltip.top .tooltip-arrow {
 		border-top-color: $darkblue;
 	}
-
-	
 }
 
 .avatar {
