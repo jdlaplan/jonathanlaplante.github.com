@@ -1,1 +1,1 @@
-!function(t){"use strict";t("a").tooltip(),t(".fitname").fitText(1.2,{minFontSize:"18px",maxFontSize:"36px"})}(jQuery);
+!function(t){"use strict";t("a").tooltip(),t(".fitname").fitText(1.2,{minFontSize:"18px",maxFontSize:"36px"}),t(window).load(function(){t(".masonry").masonry({columnWidth:".grid-sizer",gutter:".gutter-sizer",itemSelector:".item"})})}(jQuery);

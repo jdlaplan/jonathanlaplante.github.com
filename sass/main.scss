@@ -3,9 +3,10 @@
 @import "media-queries"; 
 @import "variables";
 @import "icomoon";
+@import "masonry";
 
 body { 
-	// padding-top: 50px; 
+	padding-top: 50px; 
 	font-family: 'Cabin', sans-serif;
 	@include background-image-retina(triangles, png, 33px, 36px);
 	color: $offwhite;
@@ -42,7 +43,6 @@ h2 {
 	letter-spacing: 2px;
 	font-size: 1em;
 }
-
 
 .acs-logo {
 	width: 75px;
