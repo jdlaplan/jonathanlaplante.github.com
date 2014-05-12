@@ -48,8 +48,7 @@
 
 .masonry .item {
   width: 24%;
-  margin-bottom: 10px;
-  background: #999;
+  margin-bottom: 1.33333%;
 }
 .masonry .item img {
   width: 100%;
@@ -58,18 +57,9 @@
   width: 24%;
 }
 .masonry .gutter-sizer {
-  width: 1.33%;
+  width: 1.33333%;
 }
 
-/* 
-(container width - (columns * column width)) / number of gutters = gutter width
-
-(100% - (3 * 32.33%)) / 2) = 1.5% 
-(100% - (4 * 24%)) / 3) = 1.33333333333333% 
-(100% - (5 * 19%)) / 4) = 1.25% 
-
-
-*/
 body {
   padding-top: 50px;
   font-family: 'Cabin', sans-serif;

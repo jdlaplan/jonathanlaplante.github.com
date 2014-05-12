@@ -1,8 +1,16 @@
+$columns: 4;
+
+$gutter-size: 1;
+
+$column-width: 100% / $columns - $gutter-size;
+
+$gutter: (100 - ($columns * $column-width)) / ($columns - 1);
+
+
 .masonry {
 	.item { 
-		width: 24%; 
-		margin-bottom: 10px;
-		background: #999; 
+		width: $column-width; 
+		margin-bottom: $gutter;
 
 		img {
 			width: 100%;
@@ -10,19 +18,10 @@
 	}
 
 	.grid-sizer { 
-		width: 24%; 
+		width: $column-width;
 	}
 
 	.gutter-sizer { 
-		width: 1.33%; 
+		width: $gutter;
 	}
 }
-/* 
-(container width - (columns * column width)) / number of gutters = gutter width
-
-(100% - (3 * 32.33%)) / 2) = 1.5% 
-(100% - (4 * 24%)) / 3) = 1.33333333333333% 
-(100% - (5 * 19%)) / 4) = 1.25% 
-
-
-*/
