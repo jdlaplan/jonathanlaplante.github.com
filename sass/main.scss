@@ -91,5 +91,22 @@ h2 {
 	text-transform: uppercase;
 }
 
+.share-bar {
+	padding: 1em 0;
+	text-align: center;
+
+	.btn {
+		color: #fff;
+		background-color: $darkblue;
+		border-color: transparent;
+
+		&:hover {
+			color: #fff;
+			background-color: $orange;
+			border-color: transparent;
+		}
+	}
+}
+
 
 

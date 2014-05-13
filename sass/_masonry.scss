@@ -1,27 +1,47 @@
-$columns: 4;
+@mixin masonry($columns,$gutter-size) {
+    $column-width: 100% / $columns - $gutter-size !global;
+    $gutter: (100 - ($columns * $column-width)) / ($columns - 1) !global;
 
-$gutter-size: 1;
+    .masonry {
+        margin: $gutter 0;
+        .item { 
+            width: $column-width; 
+            margin-bottom: $gutter;
 
-$column-width: 100% / $columns - $gutter-size;
+            img {
+                width: 100%;
+            }
+        }
 
-$gutter: (100 - ($columns * $column-width)) / ($columns - 1);
+        .grid-sizer { 
+            width: $column-width;
+        }
 
-
-.masonry {
-	.item { 
-		width: $column-width; 
-		margin-bottom: $gutter;
-
-		img {
-			width: 100%;
-		}
-	}
-
-	.grid-sizer { 
-		width: $column-width;
-	}
-
-	.gutter-sizer { 
-		width: $gutter;
-	}
+        .gutter-sizer { 
+            width: $gutter;
+        }
+    }
 }
+
+$gutter-width: 1.5;
+
+@include mq(xxs) {
+	@include masonry(2,$gutter-width);
+}
+
+@include mq(xs) {
+	@include masonry(3,$gutter-width);
+}
+
+@include mq(sm) {
+	@include masonry(4,$gutter-width);
+}
+
+@include mq(md) {
+	@include masonry(5,$gutter-width);
+}
+
+@include mq(lg) {
+	@include masonry(6,$gutter-width);
+}
+

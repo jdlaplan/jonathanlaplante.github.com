@@ -1,7 +1,3 @@
-/*
- * Responsive mixin. The media breakpoints are as defined
- * in the twitter bootstrap framework:
- */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?-d8ym7y");
@@ -46,29 +42,119 @@
   content: "\e605";
 }
 
-.masonry .item {
-  width: 24%;
-  margin-bottom: 1.33333%;
+@media (max-width: 480px) {
+  .masonry {
+    margin: 3% 0;
+  }
+  .masonry .item {
+    width: 48.5%;
+    margin-bottom: 3%;
+  }
+  .masonry .item img {
+    width: 100%;
+  }
+  .masonry .grid-sizer {
+    width: 48.5%;
+  }
+  .masonry .gutter-sizer {
+    width: 3%;
+  }
 }
-.masonry .item img {
-  width: 100%;
+@media only screen and (max-width: xxspx) {
+  .masonry {
+    margin: 3% 0;
+  }
+  .masonry .item {
+    width: 48.5%;
+    margin-bottom: 3%;
+  }
+  .masonry .item img {
+    width: 100%;
+  }
+  .masonry .grid-sizer {
+    width: 48.5%;
+  }
+  .masonry .gutter-sizer {
+    width: 3%;
+  }
 }
-.masonry .grid-sizer {
-  width: 24%;
+@media (min-width: 481px) and (max-width: 767px) {
+  .masonry {
+    margin: 2.25% 0;
+  }
+  .masonry .item {
+    width: 31.83333%;
+    margin-bottom: 2.25%;
+  }
+  .masonry .item img {
+    width: 100%;
+  }
+  .masonry .grid-sizer {
+    width: 31.83333%;
+  }
+  .masonry .gutter-sizer {
+    width: 2.25%;
+  }
 }
-.masonry .gutter-sizer {
-  width: 1.33333%;
+@media (min-width: 768px) {
+  .masonry {
+    margin: 2% 0;
+  }
+  .masonry .item {
+    width: 23.5%;
+    margin-bottom: 2%;
+  }
+  .masonry .item img {
+    width: 100%;
+  }
+  .masonry .grid-sizer {
+    width: 23.5%;
+  }
+  .masonry .gutter-sizer {
+    width: 2%;
+  }
 }
-
+@media (min-width: 992px) {
+  .masonry {
+    margin: 1.875% 0;
+  }
+  .masonry .item {
+    width: 18.5%;
+    margin-bottom: 1.875%;
+  }
+  .masonry .item img {
+    width: 100%;
+  }
+  .masonry .grid-sizer {
+    width: 18.5%;
+  }
+  .masonry .gutter-sizer {
+    width: 1.875%;
+  }
+}
+@media (min-width: 1200px) {
+  .masonry {
+    margin: 1.8% 0;
+  }
+  .masonry .item {
+    width: 15.16667%;
+    margin-bottom: 1.8%;
+  }
+  .masonry .item img {
+    width: 100%;
+  }
+  .masonry .grid-sizer {
+    width: 15.16667%;
+  }
+  .masonry .gutter-sizer {
+    width: 1.8%;
+  }
+}
 body {
   padding-top: 50px;
   font-family: 'Cabin', sans-serif;
   background-image: url("../images/triangles.png");
   color: #ecf0f1;
-  /* Landscape phones and down */
-  /* Landscape phones and down */
-  /* Landscape phones and down */
-  /* Landscape phones and down */
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   body {
@@ -77,17 +163,17 @@ body {
     background-size: 33px 36px;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 767px) {
   body {
     font-size: 12px;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   body {
     font-size: 12px;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 992px) {
   body {
     font-size: 14px;
   }
@@ -158,4 +244,19 @@ h2 {
   border: none;
   border-radius: 0;
   text-transform: uppercase;
+}
+
+.share-bar {
+  padding: 1em 0;
+  text-align: center;
+}
+.share-bar .btn {
+  color: #fff;
+  background-color: #2980b9;
+  border-color: transparent;
+}
+.share-bar .btn:hover {
+  color: #fff;
+  background-color: #ff770b;
+  border-color: transparent;
 }
