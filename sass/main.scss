@@ -8,7 +8,7 @@ body {
 	padding-top: 50px; 
 	font-family: 'Cabin', sans-serif;
 	@include background-image-retina(triangles, png, 33px, 36px);
-	color: $offwhite;
+	color: $offwhite; 
 
 	@include mq(xs) {
 		font-size: 12px;

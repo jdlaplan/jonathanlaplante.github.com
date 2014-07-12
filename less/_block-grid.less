@@ -1,0 +1,112 @@
+
+@block-grid-gutter: 2%;
+
+.block-grid
+{
+    .clearfix();
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin: 0 -@block-grid-gutter/2 0 -@block-grid-gutter/2;
+
+    li > img, div > img
+    {
+        width: 100%;
+        
+    }
+
+    > li, > div
+    {
+        float: left;
+        width: 100%;
+        padding-left: @block-grid-gutter/2;
+        padding-right: @block-grid-gutter/2;
+        margin-bottom: calc(@block-grid-gutter);
+    }
+
+    @media @xs
+    {
+        &.xs-1-up > li, > div {width: 100%;}
+        &.xs-2-up > li, > div {width: 100%/2; &:nth-child(2n+1){clear: both;}}
+        &.xs-3-up > li, > div {width: 100%/3; &:nth-child(3n+1){clear: both;}}
+        &.xs-4-up > li, > div {width: 100%/4; &:nth-child(4n+1){clear: both;}}
+        &.xs-5-up > li, > div {width: 100%/5; &:nth-child(5n+1){clear: both;}}
+        &.xs-6-up > li, > div {width: 100%/6; &:nth-child(6n+1){clear: both;}}
+        &.xs-7-up > li, > div {width: 100%/7; &:nth-child(7n+1){clear: both;}}
+        &.xs-8-up > li, > div {width: 100%/8; &:nth-child(8n+1){clear: both;}}
+        &.xs-9-up > li, > div {width: 100%/9; &:nth-child(9n+1){clear: both;}}
+        &.xs-10-up > li, > div {width: 100%/10; &:nth-child(10n+1){clear: both;}}
+        &.xs-11-up > li, > div {width: 100%/11; &:nth-child(11n+1){clear: both;}}
+        &.xs-12-up > li, > div {width: 100%/12; &:nth-child(12n+1){clear: both;}}
+    }
+
+    @media @sm
+    {
+        &.sm-1-up > li, > div {width: 100%;}
+        &.sm-2-up > li, > div {width: 100%/2; &:nth-child(2n+1){clear: both;}}
+        &.sm-3-up > li, > div {width: 100%/3; &:nth-child(3n+1){clear: both;}}
+        &.sm-4-up > li, > div {width: 100%/4; &:nth-child(4n+1){clear: both;}}
+        &.sm-5-up > li, > div {width: 100%/5; &:nth-child(5n+1){clear: both;}}
+        &.sm-6-up > li, > div {width: 100%/6; &:nth-child(6n+1){clear: both;}}
+        &.sm-7-up > li, > div {width: 100%/7; &:nth-child(7n+1){clear: both;}}
+        &.sm-8-up > li, > div {width: 100%/8; &:nth-child(8n+1){clear: both;}}
+        &.sm-9-up > li, > div {width: 100%/9; &:nth-child(9n+1){clear: both;}}
+        &.sm-10-up > li, > div {width: 100%/10; &:nth-child(10n+1){clear: both;}}
+        &.sm-11-up > li, > div {width: 100%/11; &:nth-child(11n+1){clear: both;}}
+        &.sm-12-up > li, > div {width: 100%/12; &:nth-child(12n+1){clear: both;}}
+    }
+
+    @media @md
+    {
+        &.md-1-up > li, > div {width: 100%;}
+        &.md-2-up > li, > div {width: 100%/2; &:nth-child(2n+1){clear: both;}}
+        &.md-3-up > li, > div {width: 100%/3; &:nth-child(3n+1){clear: both;}}
+        &.md-4-up > li, > div {width: 100%/4; &:nth-child(4n+1){clear: both;}}
+        &.md-5-up > li, > div {width: 100%/5; &:nth-child(5n+1){clear: both;}}
+        &.md-6-up > li, > div {width: 100%/6; &:nth-child(6n+1){clear: both;}}
+        &.md-7-up > li, > div {width: 100%/7; &:nth-child(7n+1){clear: both;}}
+        &.md-8-up > li, > div {width: 100%/8; &:nth-child(8n+1){clear: both;}}
+        &.md-9-up > li, > div {width: 100%/9; &:nth-child(9n+1){clear: both;}}
+        &.md-10-up > li, > div {width: 100%/10; &:nth-child(10n+1){clear: both;}}
+        &.md-11-up > li, > div {width: 100%/11; &:nth-child(11n+1){clear: both;}}
+        &.md-12-up > li, > div {width: 100%/12; &:nth-child(12n+1){clear: both;}}
+        &.sm-2-up > li, > div {&:nth-child(2n+1){clear: none;}}
+        &.sm-3-up > li, > div {&:nth-child(3n+1){clear: none;}}
+        &.sm-4-up > li, > div {&:nth-child(4n+1){clear: none;}}
+        &.sm-5-up > li, > div {&:nth-child(5n+1){clear: none;}}
+        &.sm-6-up > li, > div {&:nth-child(6n+1){clear: none;}}
+        &.sm-7-up > li, > div {&:nth-child(7n+1){clear: none;}}
+        &.sm-8-up > li, > div {&:nth-child(8n+1){clear: none;}}
+        &.sm-9-up > li, > div {&:nth-child(9n+1){clear: none;}}
+        &.sm-10-up > li, > div {&:nth-child(10n+1){clear: none;}}
+        &.sm-11-up > li, > div {&:nth-child(11n+1){clear: none;}}
+        &.sm-12-up > li, > div {&:nth-child(12n+1){clear: none;}}
+    }
+
+    @media @lg
+    {
+        &.lg-1-up > li, > div {width: 100%;}
+        &.lg-2-up > li, > div {width: 100%/2; &:nth-child(2n+1){clear: both;}}
+        &.lg-3-up > li, > div {width: 100%/3; &:nth-child(3n+1){clear: both;}}
+        &.lg-4-up > li, > div {width: 100%/4; &:nth-child(4n+1){clear: both;}}
+        &.lg-5-up > li, > div {width: 100%/5; &:nth-child(5n+1){clear: both;}}
+        &.lg-6-up > li, > div {width: 100%/6; &:nth-child(6n+1){clear: both;}}
+        &.lg-7-up > li, > div {width: 100%/7; &:nth-child(7n+1){clear: both;}}
+        &.lg-8-up > li, > div {width: 100%/8; &:nth-child(8n+1){clear: both;}}
+        &.lg-9-up > li, > div {width: 100%/9; &:nth-child(9n+1){clear: both;}}
+        &.lg-10-up > li, > div {width: 100%/10; &:nth-child(10n+1){clear: both;}}
+        &.lg-11-up > li, > div {width: 100%/11; &:nth-child(11n+1){clear: both;}}
+        &.lg-12-up > li, > div {width: 100%/12; &:nth-child(12n+1){clear: both;}}
+        &.md-2-up > li, > div {&:nth-child(2n+1){clear: none;}}
+        &.md-3-up > li, > div {&:nth-child(3n+1){clear: none;}}
+        &.md-4-up > li, > div {&:nth-child(4n+1){clear: none;}}
+        &.md-5-up > li, > div {&:nth-child(5n+1){clear: none;}}
+        &.md-6-up > li, > div {&:nth-child(6n+1){clear: none;}}
+        &.md-7-up > li, > div {&:nth-child(7n+1){clear: none;}}
+        &.md-8-up > li, > div {&:nth-child(8n+1){clear: none;}}
+        &.md-9-up > li, > div {&:nth-child(9n+1){clear: none;}}
+        &.md-10-up > li, > div {&:nth-child(10n+1){clear: none;}}
+        &.md-11-up > li, > div {&:nth-child(11n+1){clear: none;}}
+        &.md-12-up > li, > div {&:nth-child(12n+1){clear: none;}}
+    }
+}

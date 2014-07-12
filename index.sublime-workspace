@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"column"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"b",
+				"baseline"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"le",
+				"letter-spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/_social.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/fonts/icomoon.eot",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/_icomoon.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/main.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/screen.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/ie.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/_masonry.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/_mixins.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/_media-queries.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/scripts/global.js",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/experiments/masonry.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/css/main.css",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/experiments/experiments.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/experiments/masonry.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/experiments/experiments.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/nav.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/config.rb",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/index.kit",
+		"/Users/jonathanlaplante/Desktop/acs-logo.svg",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/index.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/sass/_variables.scss",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/header.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/_google-analytics.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/nav.kit",
+		"/Users/jonathanlaplante/Desktop/icomoon (1)/style.css",
+		"/Users/jonathanlaplante/Desktop/icomoon/style.css",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/google4c23904e43060d7e.html",
+		"/Users/jonathanlaplante/Desktop/google4c23904e43060d7e.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/google-analytics.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/footer.kit",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/bower_components/fontawesome/.gitignore",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/header.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/images/header.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/header.html",
+		"/Users/jonathanlaplante/jonathanlaplante.github.com/header.kit",
+		"/Users/jonathanlaplante/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jonathanlaplante/Library/Application Support/Sublime Text 3/Packages/User/Sublimall.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".math"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

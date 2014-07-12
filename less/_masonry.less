@@ -1,0 +1,29 @@
+.masonry (@columns,@gutter-size) 
+{
+    @column-width: 100% / @columns - @gutter-size;
+    @gutter: (100 - (@columns * @column-width)) / (@columns - 1);
+
+    .masonry 
+    {
+        margin: @gutter 0;
+        .item 
+        { 
+            width: @column-width; 
+            margin-bottom: @gutter;
+            img {width: 100%;}
+        }
+
+        .grid-sizer {width: @column-width;}
+        .gutter-sizer {width: @gutter;}
+    }
+} 
+
+@gutter-width-grid: 1.5;
+
+@media @xs {.masonry(2,@gutter-width-grid)}
+@media @sm {.masonry(4,@gutter-width-grid)}
+@media @md {.masonry(6,@gutter-width-grid)}
+@media @lg {.masonry(8,@gutter-width-grid)}
+
+
+
