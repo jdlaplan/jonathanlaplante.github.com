@@ -86,6 +86,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+	],
 	"file_history":
 	[
 		"/Users/jonathanlaplante/jonathanlaplante.github.com/partials/_social.kit",
@@ -230,6 +233,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

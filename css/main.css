@@ -107,6 +107,53 @@
   }
 }
 body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+.text-container {
+  max-width: 33em;
+  margin: 0 auto;
+}
+.text-container h1, .text-container .h1,
+.text-container h2, .text-container .h2,
+.text-container h3, .text-container .h3,
+.text-container h4, .text-container .h4,
+.text-container h5, .text-container .h5,
+.text-container h6, .text-container .h6 {
+  margin-top: 1.25em;
+  margin-bottom: .5em;
+}
+.text-container h1 {
+  font-size: 2.250em;
+}
+.text-container h2 {
+  font-size: 1.875em;
+}
+.text-container h3 {
+  font-size: 1.5em;
+}
+.text-container h4 {
+  font-size: 1.125em;
+}
+.text-container p, .text-container li {
+  margin-bottom: .75em;
+}
+.text-container .lead {
+  font-size: 1.325em;
+}
+
+body {
   padding-top: 50px;
   font-family: 'Cabin', sans-serif;
   background-image: url("../images/triangles.png");
@@ -115,42 +162,19 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   body {
     background-image: url("../images/triangles@2X.png");
-    -webkit-background-size: 33px 36px;
     background-size: 33px 36px;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    font-size: 12px;
-  }
-}
-@media (min-width: 768px) {
-  body {
-    font-size: 12px;
-  }
-}
-@media (min-width: 992px) {
-  body {
-    font-size: 14px;
-  }
-}
-@media (min-width: 1200px) {
-  body {
-    font-size: 16px;
   }
 }
 
 header {
   padding: 3em 0;
 }
-
-h1 {
+header h1 {
   color: #3498db;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
-h2 {
+header h2 {
   color: #ff770b;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -160,22 +184,23 @@ h2 {
 .acs-logo {
   width: 70px;
   height: auto;
-  /* display: block;
-  margin: 0 auto; */
+  position: relative;
+  top: -.2em;
 }
 
 .social a {
+  font-size: 1.125em;
   color: #2980b9;
   display: block;
   -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
 }
 .social a:hover {
   color: #ff770b;
   text-decoration: none;
   -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .social .tooltip-inner {
   background-color: #2980b9;
@@ -191,7 +216,6 @@ h2 {
   height: auto;
   display: block;
   margin: 4em auto;
-  -webkit-box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 6px #3498db;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 6px #3498db;
 }
 
@@ -215,4 +239,11 @@ h2 {
   color: #fff;
   background-color: #ff770b;
   border-color: transparent;
+}
+
+section.blank {
+  background-color: white;
+  color: #222;
+  padding: 0 0 2em;
+  margin: 2em 0;
 }

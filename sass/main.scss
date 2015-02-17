@@ -3,55 +3,42 @@
 @import "media-queries"; 
 @import "variables";
 @import "masonry";
+@import "typography";
 
 body { 
 	padding-top: 50px; 
 	font-family: 'Cabin', sans-serif;
 	@include background-image-retina(triangles, png, 33px, 36px);
 	color: $offwhite; 
-
-	@include mq(xs) {
-		font-size: 12px;
-	}
-
-	@include mq(sm) {
-		font-size: 12px;
-	}
-
-	@include mq(md) {
-		font-size: 14px;
-	}
-
-	@include mq(lg) {
-		font-size: 16px;
-	}
 }
 
 header {
 	padding: 3em 0;
-}
 
-h1 {
-	color: $lightblue;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-h2 {
-	color: $orange;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 1em;
+	h1 {
+		color: $lightblue;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	h2 {
+		color: $orange;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 1em;
+	}
 }
 
 .acs-logo {
 	width: 70px;
 	height: auto;
-	/* display: block;
-	margin: 0 auto; */
+	position: relative;
+	top: -.2em;
 }
 
 .social {
 	a {
+		font-size: 1.125em;
 		color: $darkblue;
 		display: block;
 		transition: all .2s ease-in-out;
@@ -62,6 +49,7 @@ h2 {
 			transform: scale(1.5);
 		}
 	}
+
 	.tooltip-inner {
 		background-color: $darkblue;
 		border-radius: 0;
@@ -106,6 +94,14 @@ h2 {
 		}
 	}
 }
+
+section.blank {
+	background-color: white;
+	color: #222;
+	padding: 0 0 2em;
+	margin: 2em 0;
+}
+
 
 
 

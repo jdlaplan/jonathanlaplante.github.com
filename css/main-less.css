@@ -595,12 +595,12 @@ body {
 header {
   padding: 3em 0;
 }
-h1 {
+header h1 {
   color: #3498db;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-h2 {
+header h2 {
   color: #ff770b;
   text-transform: uppercase;
   letter-spacing: 2px;
